@@ -1,6 +1,6 @@
-# Jenkins CI/CD Pipeline on AWS EC2
+# Jenkins CI Pipeline on AWS EC2
 
-A complete CI/CD pipeline setup using Jenkins, SonarQube, Docker, and Spring Boot on AWS EC2.
+A CI (Continuous Integration) pipeline built with Jenkins, SonarQube, and Docker on AWS EC2. The pipeline builds the Spring Boot application, runs static code analysis, and creates a Docker image.
 
 ---
 
