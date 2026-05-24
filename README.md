@@ -7,11 +7,9 @@ A complete CI/CD pipeline setup using Jenkins, SonarQube, Docker, and Spring Boo
 ## Architecture
 
 ```
-GitHub Repo
-    ↓ triggers
-Jenkins (EC2 :8080)
-    ↓ runs pipeline inside
-Maven Docker Container
+Project Build on Jenkins (EC2 :8080)
+    ↓ checks out code from GitHub
+Maven Docker Container spins up
     ├── Stage 1: Build & Test (Maven + Java 17)
     ├── Stage 2: Static Code Analysis (SonarQube :9000)
     └── Stage 3: Build Docker Image (springboot-demo)
@@ -35,19 +33,13 @@ Maven Docker Container
 
 ## Quick Reference
 
-| Service | Port | URL |
-|---------|------|-----|
-| Jenkins | 8080 | http://65.1.134.229:8080 |
-| SonarQube | 9000 | http://65.1.134.229:9000 |
-| Spring Boot | 8081 | http://65.1.134.229:8081 |
+| Service | Port |
+|---------|------|
+| Jenkins | 8080 |
+| SonarQube | 9000 |
+| Spring Boot | 8081 |
 
 ---
-
-## GitHub Repository
-
-```
-https://github.com/adikhan14/jenkins-springboot-demo
-```
 
 ## Tech Stack
 
@@ -57,6 +49,6 @@ https://github.com/adikhan14/jenkins-springboot-demo
 | SonarQube | 10.4.1 | Static Code Analysis |
 | Docker | latest | Containerization |
 | Spring Boot | 3.2.5 | Application Framework |
-| Java | 17 (app) / 21 (Jenkins) | Runtime |
+| Java | 21 | EC2 Runtime |
 | Maven | 3.9.6 | Build Tool |
 | Ubuntu | Latest | EC2 OS |
