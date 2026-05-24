@@ -23,15 +23,14 @@ Maven Docker Container
 
 | # | Guide | Description |
 |---|-------|-------------|
-| 1 | [EC2 Setup](docs/01-ec2-setup.md) | Launch EC2 instance, security groups, SSH |
-| 2 | [Java Installation](docs/02-java-installation.md) | Install Java 17 & 21 |
-| 3 | [Jenkins Setup](docs/03-jenkins-setup.md) | Install, configure & access Jenkins |
-| 4 | [Docker Setup](docs/04-docker-setup.md) | Install Docker, fix permissions |
+| 1 | [Spring Boot App & GitHub](docs/01-springboot-app.md) | Create app, Dockerfile, push to GitHub |
+| 2 | [EC2 Setup](docs/02-ec2-setup.md) | Launch EC2 instance, security groups, SSH |
+| 3 | [Java Installation](docs/03-java-installation.md) | Install Java 21 on EC2 |
+| 4 | [Jenkins Setup](docs/04-jenkins-setup.md) | Install, configure & access Jenkins |
 | 5 | [SonarQube Setup](docs/05-sonarqube-setup.md) | Install, configure & access SonarQube |
-| 6 | [Spring Boot App](docs/06-springboot-app.md) | App code, endpoints, Dockerfile |
-| 7 | [GitHub Setup](docs/07-github-setup.md) | Create repo, push code |
-| 8 | [Jenkins Pipeline](docs/08-jenkins-pipeline.md) | Jenkinsfile, pipeline stages |
-| 9 | [Troubleshooting](docs/09-troubleshooting.md) | All errors & fixes encountered |
+| 6 | [Docker Setup](docs/06-docker-setup.md) | Install Docker, fix permissions |
+| 7 | [Jenkins Pipeline](docs/07-jenkins-pipeline.md) | Jenkinsfile, pipeline stages |
+| 8 | [Troubleshooting](docs/08-troubleshooting.md) | All errors & fixes encountered |
 
 ---
 
