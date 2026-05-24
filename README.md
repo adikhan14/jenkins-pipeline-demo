@@ -30,7 +30,6 @@ Maven Docker Container
 | 5 | [SonarQube Setup](docs/05-sonarqube-setup.md) | Install, configure & access SonarQube |
 | 6 | [Docker Setup](docs/06-docker-setup.md) | Install Docker, fix permissions |
 | 7 | [Jenkins Pipeline](docs/07-jenkins-pipeline.md) | Jenkinsfile, pipeline stages |
-| 8 | [Troubleshooting](docs/08-troubleshooting.md) | All errors & fixes encountered |
 
 ---
 
